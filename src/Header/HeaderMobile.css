@@ -1,0 +1,315 @@
+@media screen and (max-width:767px) {
+    .HeaderContainer{
+        height: 70px;
+    }
+
+    .HeaderContainerContent{
+        width: 90%;
+        object-fit: cover;
+        display: flex;
+    }
+
+    .HeaderImageContainer{
+        width: 70%;
+        height: 70%;
+        background-image: url(./src/Image/Frame43a.png);
+        background-repeat: no-repeat;
+        background-size: 80%;
+        background-position: center;
+    }
+
+    .HeaderOtherIcons{
+        width: 30%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        gap: 25px;
+    }
+
+
+    .HeaderOwnerRapper{
+        width: 100%;
+        height: 0%;
+        display: flex;
+        position: absolute;
+        transition: all 0.3s ease;
+        overflow: hidden;
+    }
+    
+    .HeaderOwnerRapper.active{
+        width: 200px;
+        height: 100%;
+        display: flex;
+        position: relative;
+        position: absolute;
+        transition: all 0.3s ease;
+        overflow: hidden;
+    }
+
+    ::placeholder {
+        opacity: 1; 
+        font-size: 8px;
+      }
+
+    .HeaderSearch{
+        width: 65%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: end;
+        padding-right: 25px;
+        /* position: relative; */
+    
+    }
+
+    .HeaderContainerContent2{
+        display: none;
+    }
+
+    .HeaderIcon{
+        font-size: 40px;
+    }
+
+    .HeaderIcon2{
+        font-size: 10px;
+    }
+
+    .HeaderIcon3{
+        font-size: 25px;
+    }
+
+    .HeaderOwnerRapper .HeaderIcon2{
+        font-size: 13px;
+    }
+
+    .HeaderCart{
+        /* background-color: blanchedalmond; */
+        width: 100%;
+        height: 50%;
+        align-items: start;
+        padding-right: 10px;
+        font-size: 30px;
+    }
+
+    .HeaderContainerContent3{
+        width: 70%;
+        height: 100%;
+        position: relative;
+        /* background-color: red; */
+    }
+
+    .HeaderCircleCart{
+        right: 0%;
+        top: 9px;
+    }
+
+    .HeaderCircleCart{
+        width: 17px;
+        height: 17px;
+        font-size: 10px;
+    }
+
+    .HeaderDisplayInner{
+        display: block;
+        position: absolute;
+        top: 0px;
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: end;
+    }
+
+
+    .HeaderDisplayInner ul{
+        width: 50%;
+        height: 85%;
+        background-color: white;
+        gap: 10px;
+        color: black;
+        display: flex;
+        flex-direction: column;
+        list-style-type: none;   
+        z-index: 999;
+
+    }
+
+    .HeaderRapperContainerList{
+        width: 100%;
+        height: 10%;
+        display: flex;
+        align-items: center;
+        gap: 13px;
+        font-size: 17px;
+        padding-left: 15px;
+    }
+
+    .HeaderOwnerRapper input {
+        font-size: 14px;
+    }
+
+
+}
+
+@media screen and (min-width:768px) and (max-width:1024px) {
+    .HeaderContainer{
+        gap: 50%;
+        height: 60px;
+    }
+
+    .HeaderContainerContent{
+        width: 40%;
+        padding-left: 20px;
+        background-image: url(./src/Image/Frame43a.png);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+        object-fit: cover;
+        margin-left: 10px;
+    }
+
+    .HeaderOwnerRapper{
+        width: 100%;
+        height: 0%;
+        display: flex;
+        position: absolute;
+        transition: all 0.3s ease;
+        overflow: hidden;
+    }
+    
+    .HeaderOwnerRapper.active{
+        width: 200px;
+        height: 100%;
+        display: flex;
+        position: relative;
+        position: absolute;
+        transition: all 0.3s ease;
+        overflow: hidden;
+    }
+
+    ::placeholder {
+        opacity: 1; 
+        font-size: 8px;
+      }
+
+    .HeaderSearch{
+        width: 65%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: end;
+        padding-right: 25px;
+        /* position: relative; */
+    
+    }
+    
+    .HeaderImageContainer{
+        width: 100%;
+        height: 100%;
+       display: none;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position: center;
+    }
+
+    .HeaderContainerContent2{
+        display: none;
+    }
+
+    .HeaderIcon{
+        font-size: 40px;
+    }
+
+    .HeaderIcon2{
+        font-size: 10px;
+    }
+
+    .HeaderIcon3{
+        font-size: 30px;
+    }
+
+    .HeaderOtherIcons{
+        width: 30%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        gap: 25px;
+    }
+    .HeaderOwnerRapper .HeaderIcon2{
+        font-size: 13px;
+    }
+
+    .HeaderCart{
+        /* background-color: blanchedalmond; */
+        width: 100%;
+        height: 50%;
+        align-items: start;
+        padding-right: 10px;
+        font-size: 30px;
+    }
+
+    .HeaderContainerContent3{
+        width: 70%;
+        height: 100%;
+        position: relative;
+        /* background-color: red; */
+    }
+
+    .HeaderCircleCart{
+        right: 0%;
+        top: 9px;
+    }
+
+    
+    .HeaderImageContainer{
+        width: 100%;
+        height: 50%;
+        background-image: url(./src/Image/Frame43a.png);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position: start;
+    }
+
+    .HeaderCircleCart{
+        width: 17px;
+        height: 17px;
+        font-size: 10px;
+    }
+
+    .HeaderDisplayInner{
+        display: block;
+        position: absolute;
+        top: 0px;
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: end;
+    }
+
+
+    .HeaderDisplayInner ul{
+        width: 50%;
+        height: 85%;
+        background-color: black;
+        gap: 10px;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        list-style-type: none;
+        
+
+    }
+
+    .HeaderRapperContainerList{
+        width: 100%;
+        height: 10%;
+        display: flex;
+        align-items: center;
+        gap: 13px;
+        font-size: 17px;
+        padding-left: 15px;
+    }
+
+    .HeaderOwnerRapper input {
+        font-size: 14px;
+    }
+}

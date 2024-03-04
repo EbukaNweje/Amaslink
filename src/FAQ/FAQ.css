@@ -1,0 +1,163 @@
+.FAQContainer{
+    width: 100%;
+    height: max-content;
+}
+
+.FAQFirstContainer{
+    width: 100%;
+    height: 500px;
+    background-image: url(./src/Image/FAQ.png);
+    background-color: black;
+    background-size: 85%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.FAQFirstContainerRapper{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.505);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.FAQFirstContainerRapper h1{
+    font-size: 35px;
+}
+
+.FAQSecondContainer{
+    width: 100%;
+    height: 1300px;
+    /* background-color: aquamarine; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.FAQSecondRapper{
+    width: 45%;
+    height: 50%;
+    /* background-color: red; */
+    background-image: url(./src/Image/FAQS.png);
+    background-position: center;
+    background-size: 70%;
+    background-repeat: no-repeat;
+}
+
+.FAQSecondRapper2{
+    width: 50%;
+    height: 85%;
+    /* background-color: bisque; */
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.FAQScontainerDiv{
+    width: 100%;
+    height: max-content;
+    border-radius: 5px;
+    gap: 3px;
+    display: flex;
+    flex-direction: column;
+}
+
+.FAQSContainerDivRapper{
+    width: 100%;
+    height: 80px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 10px;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.FAQADD{
+    font-size: 30px;
+}
+
+.FAQSContainerDivRapper2{
+    width: 100%;
+    height: 450px;
+    background-color: black;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: white;
+    transition: height 0.4s ease;
+    justify-content: center;
+    align-items: center;
+}
+.FAQSContainerDivRapper2.active{
+    width: 100%;
+    height: 0px;
+    background-color: black;
+    border-radius: 5px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: white;
+    transition: height 0.4s ease;
+    overflow: hidden;
+}
+
+.FAQSContainerDivRapper2 ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: 80%;
+    width: 90%;
+    gap: 15px;
+}
+
+.FAQLastContainer{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+    
+}
+
+.FAQLastContainerrapper{
+    width: 90%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+    font-size: 30px;
+}
+
+.FAQLastContainerrapper ul{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    font-size: 17px;
+}
+
+.FAQAbxk{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+}
+

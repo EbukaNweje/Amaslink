@@ -1,0 +1,145 @@
+@media screen and (max-width:767px){
+    .LoginImage{
+        display: block;
+        width: 100%;
+        height: 100%;
+        position: relative;
+        background-image: none;
+        background-color: rgba(0, 0, 0, 0.185);
+     
+    }
+
+    
+.LoginContainer{
+    width: 100%;
+    height: 100vh;
+    background-image: url(./src/Image/Frame41.png);
+    object-fit: cover;
+    display: flex;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+    .LoginCreateAccount{
+        color: white;
+    }
+
+    .LoginDetails{
+        width: 100%;
+        position: absolute;
+        background-color: rgba(0, 0, 0, 0.149);
+    }
+
+    .LoginGoogle{
+        width: 80%;
+    }
+
+    .LoginMain2{
+        width: 80%;
+    }
+
+    .LoginTick{
+        width: 80%;
+    }
+    .LoginButtonContainer{
+        width: 80%;
+    }
+    
+    .logo{
+        display: none;
+    }
+    
+    .logoText{
+        display: none;
+    }
+
+    .LoginOptiontag h4{
+        color: white;
+    }
+
+}
+
+@media screen and (min-width:768px) and (max-width:1024px){
+    
+    .LoginImage{
+        display: block;
+        width: 100%;
+        height: 100%;
+        position: relative;
+        background-image: none;
+        background-color: rgba(0, 0, 0, 0.146);
+     
+    }
+
+        
+.LoginContainer{
+    width: 100%;
+    height: 100vh;
+    background-image: url(./src/Image/Frame41.png);
+    object-fit: cover;
+    display: flex;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: black;
+  }
+
+
+    .LoginDetails{
+        width: 100%;
+    }
+
+    
+    .LoginCreateAccount{
+        color: white;
+    }
+
+    .LoginDetails{
+        width: 100%;
+        position: absolute;
+        background-color: rgba(0, 0, 0, 0.202);
+    }
+
+    .LoginGoogle{
+        width: 60%;
+    }
+
+    .LoginMain2{
+        width: 60%;
+        height: 17%;
+    }
+
+    .LoginTick{
+        width: 60%;
+    }
+    .LoginButtonContainer{
+        width: 60%;
+    }
+
+    .logo{
+        display: none;
+    }
+    
+    .logoText{
+        display: none;
+    }
+
+    .Logininputtag2{
+        height: 50%;
+    }
+
+    .Logininputtag3Inner{
+        height: 100%;
+    }
+
+    .LoginpasswordEYE{
+        top: 35%;
+    }
+
+    .LoginButton{
+        height: 25%;
+    }
+
+    .LoginOptiontag h4{
+        color: white;
+    }
+}

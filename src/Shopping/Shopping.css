@@ -1,0 +1,263 @@
+.ShoppingPageContainer{
+    width: 100%;
+    height: max-content;
+    background-color: white;
+}
+
+.ShoopingPagerapper{
+    width: 100%;
+    height: 300px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.ShoppingSearchRapperContainer{
+    width: 100%;
+    height: max-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 350px;
+}
+.ShoppingSearchItems{
+    width: 800px;
+    height: 70px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 40px;
+    display: flex;
+    justify-content: space-between;
+    /* gap: 5px; */
+}
+
+.ShoppingsearchTagContainer{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    position: relative;
+}
+
+.ShoppingsearchTagContainer1{
+    width: 18%;
+    height: 100%;
+    /* background-color: red; */
+    border-right: 1px solid rgb(198, 195, 195);
+    border-left: 1px solid rgb(202, 195, 195);
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 14px;
+    /* gap: 5px; */
+    
+}
+
+
+.ShoppingsearchTagContainer2{
+    width: 18%;
+    height: 100%;
+    /* background-color: red; */
+    border-right: 1px solid rgb(198, 195, 195);
+    border-left: 1px solid rgb(202, 195, 195);
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    gap: 5px;
+    
+}
+
+.ShoppingsearchTagContainer3{
+    width: 18%;
+    height: 100%;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    gap: 5px;
+    position: relative;
+    border-left: 1px solid rgb(152, 144, 144);
+}
+
+.Shoppingtag{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    outline: none;
+    padding-left: 20px;
+    font-size: 15px;
+}
+
+.SearchIconShopping{
+    position: absolute;
+    top: 25px;
+    right: 10px;
+    font-size: 20px;
+    color: black;
+    cursor: pointer;
+}
+
+.ShoppingDownIcons{
+    color: black;
+}
+
+.ShoppingSlectTag{
+    width: 90%;
+    height: 100%;
+    border: none;
+    font-size: 14px;
+    border-radius: 40px;
+    cursor: pointer;
+    outline: none;
+}
+
+.ShoppingDivRapper{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: end;
+}
+
+.ShoppingSecondContainer{
+    width: 100%;
+    height: 500px;
+}
+
+.ShoppingULLIControler{
+    width: 0%;
+    height: 0px;
+    background-color: white;
+    position: absolute;
+    top: 100%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    overflow: hidden;
+    transition: all 0.3s ease;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.ShoppingULLIControler.active{
+    width: 90%;
+    height: 130px;
+    background-color: white;
+    position: absolute;
+    top: 100%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    transition: all 0.3s ease;
+    background-color: white;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+
+.ShoppingULLIControler ul{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    gap: 10px;
+    list-style-type: none;
+}
+
+.ShoppingULLIControler ul li{
+    width: 100%;
+    height: 17%;
+    padding-left: 10px;
+}
+.ShoppingULLIControler ul li:hover{
+    width: 100%;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.ShoppingUliContainer{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.ShoppingULLIControler2{
+    width: 1200px;
+    height: 100%;
+    display: flex;
+    color: black;
+    align-items: center;
+    justify-content: center;
+}
+
+.ShoppingULLIControler2 ul{
+    width: 95%;
+    height: 50%;
+    display: flex;
+    /* gap: 10px; */
+    list-style-type: none;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.ShoppingULLIControler2 ul .last{
+    width: 100%;
+    height: 7%;
+    border-right: 1px solid rgb(147, 147, 147);
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ShoppingULLIControler2 ul li:hover{
+    background-color: whitesmoke;
+}
+
+
+.ShoppingULLIControler2 ul .last2{
+    width: 100%;
+    height: 7%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.ShoppingSecondContainer{
+    width: 100%;
+    height: max-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ShoppingSpan{
+    width: 40px;
+    height: 40px;
+    background-color: pink;
+}
+
+.ShoppingSecondContainerRapper{
+    width: 1200px;
+    height: max-content;
+    /* background-color: red; */
+}

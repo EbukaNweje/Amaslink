@@ -1,0 +1,213 @@
+.UploadContainer{
+    width: 100%;
+    height: max-content;
+}
+
+.UploadContainerUnder{
+    width: 100%;
+    height: 900px;
+    background-color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.UploadRapper{
+    width: 55%;
+    height: 90%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+
+}
+
+.UploadRapperContainer{
+    width: 90%;
+    height: 90%;
+}
+
+.UploadRapperone{
+    width: 100%;
+    height: 22%;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+}
+
+.UplaodCategoryOne{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    position: relative;
+}
+
+.UploadInputCategory{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    border: 1px solid rgb(88, 85, 85);
+    outline: none;
+    border-radius: 7px;
+    padding-left: 10px;
+}
+
+.UploadArrowDown{
+    position: absolute;
+    right: 5%;
+    top: 40%;
+    font-size: 20px;
+    color: rgb(47, 47, 47);
+    cursor: pointer;
+}
+
+.UploadCategoryTwo{
+    width: 100%;
+    height: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.CategoryImageUpload{
+    width: 50%;
+    height: 70%;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.UploadCategoryThree{
+    width: 100%;
+    height: 15%;
+}
+
+.UploadCategoryRapper{
+    width: 100%;
+    height: 70%;
+}
+
+.CategoryImageUploadMessage{
+    width: 100%;
+    height: 100%;
+    border-radius: 7px;
+    outline: none;
+    padding-left: 10px;
+    border: 1px solid rgb(66, 63, 63);
+}
+
+.CategoryContainerButton{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.UploadButton{
+    width: 60%;
+    height: 40%;
+    background-color: red;
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+}
+
+.UploadCategoryList{
+    position: absolute;
+    width: 25%;
+    height: 0px;
+    background-color: white;
+    border: 1px solid rgb(255, 255, 255);
+    right: 25%;
+    top: 41%;
+    z-index: 99;
+    transition: all 0.3s ease;
+    overflow: hidden;
+}
+
+.UploadCategoryList.active{
+    position: absolute;
+    width: 25%;
+    height: 70%;
+    background-color: white;
+    border: 1px solid rgb(138, 133, 133);
+    right: 25%;
+    top: 41%;
+    z-index: 99;
+    transition: all 0.3s ease;
+    overflow: hidden;
+}
+
+.UploadCategoryList ul{
+    width: 100%;
+    height: 100%;
+}
+
+.UploadCategoryList ul li{
+    width: 100%;
+    height: 11%;
+    border-bottom: 1px solid rgb(146, 142, 142);
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    cursor: pointer;
+}
+
+.UploadCategoryList ul li:hover{
+    background-color: whitesmoke;
+}
+
+
+.UploadCategoryList2{
+    position: absolute;
+    width: 25%;
+    height: 0px;
+    background-color: white;
+    border: 1px solid rgb(255, 255, 255);
+    right: 25%;
+    top: 58%;
+    z-index: 99;
+    transition: all 0.3s ease;
+    overflow: hidden;
+}
+
+.UploadCategoryList2.active{
+    position: absolute;
+    width: 25%;
+    height: 70%;
+    background-color: white;
+    border: 1px solid rgb(138, 133, 133);
+    right: 25%;
+    top: 58%;
+    z-index: 99;
+    transition: all 0.3s ease;
+    overflow: hidden;
+}
+
+.UploadCategoryList2 ul{
+    width: 100%;
+    height: 100%;
+}
+
+.UploadCategoryList2 ul li{
+    width: 100%;
+    height: 11%;
+    border-bottom: 1px solid rgb(146, 142, 142);
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    cursor: pointer;
+}
+
+.UploadCategoryList ul li:hover{
+    background-color: whitesmoke;
+}

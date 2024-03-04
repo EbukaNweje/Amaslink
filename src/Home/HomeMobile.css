@@ -1,0 +1,569 @@
+@media screen and (max-width:767px){
+    .HomeHeaderBox2{
+        display: none;
+    }
+
+    .HomeHeaderBox3{
+        display: none;
+    }
+
+    .HomeHeaderBox1{
+        width: 30%;
+       background-color: 100%;
+    }
+
+    .HomeHeaderRapper{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .Homemenu{
+        display: block;
+        font-size: 20px;
+        position: absolute;
+        right: 5%;
+    }
+
+    .HomeMenuClick{
+        display: block;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        background-color: black;
+        z-index: 9999;
+        top: 0;
+
+    }
+
+    .HomeCancleicon{
+        width: 100%;
+        height: 15%;
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        padding-right: 10px;
+        font-size: 30px;
+        color: white;
+        border-bottom: 1px solid rgb(174, 171, 171);
+    }
+
+    .HomeCancle{
+        display: block;
+        color: white;
+    }
+
+    .HomeLoginDropdown{
+        width: 100%;
+        height: 70%;
+    }
+
+    .HomeLoginDropdown ul{
+        width: 100%;
+        height: 70%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 15%;
+        list-style-type: none;
+        gap: 20%;
+        font-size: 20px;
+        color: white;
+    }
+
+    .HomeLoginDropdown ul li:hover {
+        color: red;
+        text-decoration: underline;
+        text-decoration-thickness: 3px;
+        text-decoration-color: red;
+        transition: ease-in 300ms;
+        gap: 10px;
+        cursor: pointer;
+    }
+
+    .LoginandSignup{
+        width: 100%;
+        height: 7%;
+        display: flex;
+        justify-content: center;
+        gap: 28%;
+    }
+
+    .Login{
+        width: 30%;
+        height: 100%;
+        background-color: black;
+        border: 1px solid white;
+        color: white;
+        border-radius: 10px;
+    }
+
+    .Register{
+        width: 30%;
+        height: 100%;
+        background-color: red;
+        color: white;
+        border: none;
+        border-radius: 10px;
+    }
+
+    .HomeContainerTwo{
+        flex-direction: column-reverse;
+        position: relative;
+    }
+
+    .HomeContainerImageTwo{
+        width: 100%;
+        height: 550px;
+        background-color: black;
+        background-image: url(./src/Image/Frame44.png);
+        background-position: center;
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+
+
+    .Homeh1Tag{
+        width: 100%;
+        font-size: 20px;
+        font-weight: 500;
+        display: flex;
+        align-items: center;
+        letter-spacing: 2px;
+    }
+
+    .HomeContainerTexttwo{
+        display: none;
+    }
+    
+    .HomeContainerTwo{
+        height: 300px;
+    }
+
+    .HomeContainerinner{
+        width: 90%;
+        gap: 20px;
+        position: absolute;
+        top: 30%;
+    }
+
+    .HomePTag{
+        width: 100%;
+        font-size: 14px;
+        color: white;
+        display: none;
+    }
+
+    .HomeHolderRapperAllInner{
+        width: 95%;
+    }
+
+    
+    .HomeCategorydivs1{
+        font-size: 15px;
+        font-weight: 600;
+    }
+
+    .HomeCategoryrapper{
+        height: 10%; 
+        /* background-color: antiquewhite;  */
+    }
+
+    .HomeCategorydivs2{
+        width: 30%;
+        height: 100%;
+    }
+
+    .Homecategoryh3{
+        font-size: 8px;
+    }
+
+    .HomeCategoryListItems{
+        padding-left: 30px;
+        padding-right: 30px;
+        height: 60%;
+        font-size: 12px;
+    }
+    
+    .HomeCategoryListItems1{
+        padding-left: 30px;
+        padding-right: 30px;
+        height: 80%;
+        font-size: 12px;
+    }
+
+    .HomeItems{
+        width: 46%;
+    }
+
+    .HomeItemsTypeRapper{
+        width: 90%;
+        height: max-content;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 7%;
+    }
+
+    .HomeItmsName h4{
+        font-size: 13px;
+    }
+
+    .HomeStar{
+        font-size: 10px;
+    }
+
+    .HomeitemsColorType1{
+        height: 50%;; 
+    }
+
+    .HomeitemsColorType2{
+        height: 50%;; 
+    }
+
+    .HomeitemsColorType3{
+        height: 50%;; 
+    }
+
+    .HomeitemsColorType4{
+        height: 50%;; 
+    }
+
+    .HomesendEmailText h4{
+        font-size: 20px;
+    }
+
+    .HomesendEmailText p{
+        font-size: 12px;
+    }
+
+    .HomesendEmailText{
+        width: 100%;
+    }
+
+    .HomeSendEmailinputtag{
+        width: 85%;
+        height: 50%;
+    }
+
+    .HomesendEmailInput{
+        flex-direction: column;
+        height: 90%;
+    }
+
+    .HomesendEmailContainer{
+        height: 350px;
+    }
+
+    .HomeSendEmailbutton{
+        width: 85%;
+        height: 50%;
+        margin-bottom: 10px;
+    }
+
+    .HomeLoginDropdown{
+        display: block;
+    }
+
+   .HomeItmsName .HomeCatrH4{
+        font-size: 11px;
+    }
+
+    .HomeItmsName{
+        gap: 5px;
+    }
+
+    .HomeNumberrapper{
+        width: 70%;
+        height: 70%;
+        /* background-color: whitesmoke; */
+        display: flex;
+        gap: 3px;
+        justify-content: center;
+    }
+    
+}
+
+@media screen and (min-width:768px) and (max-width:1024px){
+    .HomeHeaderBox2{
+        display: none;
+    }
+
+    .HomeHeaderBox3{
+        display: none;
+    }
+
+    .HomeHeaderBox1{
+        width: 30%;
+       background-color: 100%;
+    }
+
+    .HomeHeaderRapper{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .Homemenu{
+        display: block;
+        font-size: 20px;
+        position: absolute;
+        right: 5%;
+    }
+
+    .HomeMenuClick{
+        display: block;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        background-color: black;
+        z-index: 9999;
+        top: 0;
+
+    }
+
+    .HomeCancleicon{
+        width: 100%;
+        height: 15%;
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        padding-right: 10px;
+        font-size: 30px;
+        color: white;
+        border-bottom: 1px solid rgb(174, 171, 171);
+    }
+
+    .HomeCancle{
+        display: block;
+        color: white;
+    }
+
+    .HomeLoginDropdown{
+        width: 100%;
+        height: 70%;
+    }
+
+    .HomeLoginDropdown ul{
+        width: 100%;
+        height: 70%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 15%;
+        list-style-type: none;
+        gap: 20%;
+        font-size: 20px;
+        color: white;
+    }
+
+    .HomeLoginDropdown ul li:hover {
+        color: red;
+        text-decoration: underline;
+        text-decoration-thickness: 3px;
+        text-decoration-color: red;
+        transition: ease-in 300ms;
+        gap: 10px;
+        cursor: pointer;
+    }
+
+    .LoginandSignup{
+        width: 100%;
+        height: 7%;
+        display: flex;
+        justify-content: center;
+        gap: 28%;
+    }
+
+    .Login{
+        width: 30%;
+        height: 100%;
+        background-color: black;
+        border: 1px solid white;
+        color: white;
+        border-radius: 10px;
+    }
+
+    .Register{
+        width: 30%;
+        height: 100%;
+        background-color: red;
+        color: white;
+        border: none;
+        border-radius: 10px;
+    }
+
+    .HomeContainerTwo{
+        flex-direction: column-reverse;
+        position: relative;
+    }
+
+    .HomeContainerImageTwo{
+        width: 100%;
+        height: 550px;
+        background-color: black;
+        background-image: url(./src/Image/Frame44.png);
+        background-position: center;
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+
+
+    .Homeh1Tag{
+        width: 100%;
+        font-size: 20px;
+        font-weight: 500;
+        display: flex;
+        align-items: center;
+        letter-spacing: 2px;
+    }
+
+    .HomeContainerTexttwo{
+        display: none;
+    }
+    
+    .HomeContainerTwo{
+        height: 300px;
+    }
+
+    .HomeContainerinner{
+        width: 90%;
+        gap: 20px;
+        position: absolute;
+        top: 30%;
+    }
+
+    .HomePTag{
+        width: 100%;
+        font-size: 14px;
+        color: white;
+        display: none;
+    }
+
+    .HomeHolderRapperAllInner{
+        width: 700px;
+    }
+
+    
+    .HomeCategorydivs1{
+        font-size: 15px;
+        font-weight: 600;
+    }
+
+    .HomeCategoryrapper{
+        height: 10%; 
+        /* background-color: antiquewhite;  */
+    }
+
+    .HomeCategorydivs2{
+        width: 130px;
+        height: 100%;
+    }
+
+    .Homecategoryh3{
+        font-size: 8px;
+    }
+
+    .HomeCategoryListItems{
+        padding-left: 30px;
+        padding-right: 30px;
+        height: 60%;
+        font-size: 12px;
+    }
+    
+    .HomeCategoryListItems1{
+        padding-left: 30px;
+        padding-right: 30px;
+        height: 80%;
+        font-size: 12px;
+    }
+
+    .HomeItems{
+        width: 28%;
+    }
+
+    .HomeItemsTypeRapper{
+        width: 100%;
+        height: max-content;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 7%;
+    }
+
+    .HomeItmsName h4{
+        font-size: 13px;
+    }
+
+    .HomeStar{
+        font-size: 10px;
+    }
+
+    .HomeitemsColorType1{
+        height: 50%;; 
+    }
+
+    .HomeitemsColorType2{
+        height: 50%;; 
+    }
+
+    .HomeitemsColorType3{
+        height: 50%;; 
+    }
+
+    .HomeitemsColorType4{
+        height: 50%;; 
+    }
+
+    .HomesendEmailText h4{
+        font-size: 20px;
+    }
+
+    .HomesendEmailText p{
+        font-size: 12px;
+    }
+
+    .HomesendEmailText{
+        width: 100%;
+    }
+
+    .HomeSendEmailinputtag{
+        width: 85%;
+        height: 50%;
+    }
+
+    .HomesendEmailInput{
+        flex-direction: column;
+        height: 90%;
+    }
+
+    .HomesendEmailContainer{
+        height: 350px;
+    }
+
+    .HomeSendEmailbutton{
+        width: 85%;
+        height: 50%;
+        margin-bottom: 10px;
+    }
+
+    .HomeLoginDropdown{
+        display: block;
+    }
+
+   .HomeItmsName .HomeCatrH4{
+        font-size: 11px;
+    }
+
+    .HomeItmsName{
+        gap: 5px;
+    }
+
+    .HomeNumberrapper{
+        width: 70%;
+        height: 70%;
+        /* background-color: whitesmoke; */
+        display: flex;
+        gap: 3px;
+        justify-content: center;
+    }
+    
+}

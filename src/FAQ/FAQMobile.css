@@ -1,0 +1,74 @@
+@media screen and (max-width:767px)  {
+    .FAQFirstContainer{
+        width: 100%;
+        height: 300px;
+        background-color: black;
+        background-size: 100%;
+        object-fit: cover;
+    }
+    
+    
+    .FAQFirstContainerRapper{
+        background-color: rgba(0, 0, 0, 0.694);
+    }
+
+    .FAQFirstContainerRapper h1{
+        font-size: 25px;
+    }
+
+    
+    .FAQFirstContainerRapper p{
+        font-size: 13px;
+    }
+
+
+    .FAQSecondRapper{
+        display: none;
+    }
+
+    .FAQSecondRapper2{
+       width: 95%;
+    }
+
+    .FAQSContainerDivRapper{
+        font-size: 10px;
+    }
+
+    .FAQSContainerDivRapper2 p{
+        font-size: 12px;
+        padding-left: 10px;
+    }
+
+    .FAQSContainerDivRapper2{
+        height: 400px;
+    }
+
+    .FAQSContainerDivRapper2 ul{
+        width: 100%;
+        padding: 20px;
+        font-size: 10px;
+    }
+
+    .FAQLastContainerrapper h2{
+        font-size: 25px;
+    }
+
+    .FAQLastContainerrapper{
+        width: 90%;
+    }
+
+    .FAQLastContainerrapper ul{
+        padding-left: 10px;
+        font-size: 12px;
+    }
+
+    .FAQLastContainer{
+        height: 600px;
+    }
+
+}
+
+
+@media screen and (min-width:768px) and(max-width:1024px) {
+    
+}

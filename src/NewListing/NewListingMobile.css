@@ -1,0 +1,33 @@
+@media screen and (max-Width:768px) {
+    
+.NewListingAcRapper{
+    width: 85%;
+}
+
+.HomeItems2{
+    width: 200px;
+    height: 260px;
+    /* background-color: white; */
+    box-shadow: rgba(103, 103, 103, 0.1) 0px 4px 12px;
+    margin-bottom: 40px;
+    border-radius: 5px;
+    border-radius: 10px 10px 0px 0px
+}
+
+}
+
+@media screen and (min-Width:769px) and (max-width:1024px) {
+    .NewListingAcRapper{
+        width: 85%;
+    }
+    
+    .HomeItems2{
+        width: 200px;
+        height: 260px;
+        /* background-color: white; */
+        box-shadow: rgba(103, 103, 103, 0.1) 0px 4px 12px;
+        margin-bottom: 40px;
+        border-radius: 5px;
+        border-radius: 10px 10px 0px 0px
+    }
+}

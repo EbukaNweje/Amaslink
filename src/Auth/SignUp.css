@@ -1,0 +1,268 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.SignUpContainer{
+    width: 100%;
+    height: 140vh;
+    background-color: white;
+    display: flex;
+  }
+
+.signUpImage{
+    width: 50%;
+    height: 100%;
+    background-image: url(./src/Image/Frame41.png);
+    overflow: hidden;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    position: relative;
+
+}
+
+.signUpDetails{
+    width: 50%;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.SignUpGoogle{
+    width: 60%;
+    height: 20%;
+
+}
+
+.SignupwithGoogle{
+    width: 100%;
+    height: 55px;
+    border: 1px solid rgb(79, 77, 77);
+    border-radius: 10px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.SignUpOptiontag{
+    width: 100%;
+    height: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    gap: 5px;
+}
+
+.line{
+    width: 26%;
+    height: 1px;
+    background-color: rgb(137, 133, 133);
+}
+
+.SignUpCreateAccount{
+    width: 60%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+
+}
+
+.SignUpGoogleIcon{
+    font-size: 20px;
+}
+
+.SignUppTag{
+    font-size: 14px;
+}
+
+.SignUpMain2{
+    width: 60%;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    transition: height 0.3s ease;
+     animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-delay: .5s;
+    transition: 0.5ms ease-in-out;;
+}
+
+.SignUpinputtag1{
+    width: 100%;
+    height: 55px;
+    border: 1px solid rgba(0, 0, 0, 0.312);
+    border-radius: 10px;
+    padding-left: 10px;
+    outline: none;
+}
+
+.SignUpinputtag2{
+    width: 100%;
+    height: 55px;
+    border: 1px solid rgba(0, 0, 0, 0.312);
+    border-radius: 10px;
+    padding-left: 10px;
+    outline: none;
+}
+
+.SignUpinputtag3{
+    width: 100%;
+    height: 55px;
+    display: flex;
+    position: relative;
+    outline: none;
+}
+
+.SignUpinputtag3Inner{
+    width: 100%;
+    height: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.312);
+    border-radius: 10px;
+    padding-left: 10px;
+    outline: none;
+}
+
+.SignUppasswordEYE{
+    position: absolute;
+    right: 4%;
+    top: 35%;
+    font-size: 20px;
+}
+
+.SignUpTick{
+    width: 60%;
+    display: flex;
+    color: red;
+    height: 30px;
+    gap: 5px;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.CircleImage{
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.SignUpButtonContainer{
+    width: 60%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.SignUpButton{
+    width: 100%;
+    height: 55px;
+    background-color: #C90A12;
+    border: none;
+    border-radius: 40px;
+    color: white;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+.logo{
+    width: 40%;
+    height: 20%;
+    background-image: url(./src/image/Frame43.png);
+    background-repeat: no-repeat;
+    overflow: hidden;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+}
+
+.logoText{
+    width: 90%;
+    height: 10%;
+    display: flex;
+    justify-content: end;
+
+}
+
+.SignUpmain3{
+    width: 100%;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-delay: .5s;
+    transition: 0.5ms ease-in-out;;
+}
+
+
+.SignUpInputTagNumber{
+    width: 100%;
+    height: 55px;
+    border: 1px solid rgba(0, 0, 0, 0.312);
+    border-radius: 10px;
+    padding-left: 10px;
+    outline: none;
+}
+
+.SignUpInputTagAddress{
+    width: 100%;
+    height: 55px;
+    border: 1px solid rgba(0, 0, 0, 0.312);
+    border-radius: 10px;
+    padding-left: 10px;
+    outline: none;
+}
+
+.SignUpInputTagCompanyName{
+    width: 100%;
+    height: 55px;
+    border: 1px solid rgba(0, 0, 0, 0.312);
+    border-radius: 10px;
+    padding-left: 10px;
+    outline: none;
+}
+
+.SignUpInputTagCompanyRegistrationNumber{
+    width: 100%;
+    height: 55px;
+    border: 1px solid rgba(0, 0, 0, 0.312);
+    border-radius: 10px;
+    padding-left: 10px;
+    outline: none;
+}
+
+
+.SignupSpan{
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.logoText{
+    position: absolute;
+    top: 63%;
+}

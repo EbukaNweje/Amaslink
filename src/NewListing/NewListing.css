@@ -1,0 +1,128 @@
+.NewListingContainer{
+    width: 100%;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    justify-content: center;
+    /* background-color: yellow; */
+    flex-direction: column;
+}
+
+.NewLisingContainerrapper{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.NewListingAcRapper{
+    width: 1080px;
+    height: 90%;
+    overflow-x: auto;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: relative;
+}
+
+.NewLisingContainerrapperMain{
+    width: max-content;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+/* .NewListingCard{
+    width: 200px;
+    height: 80%;
+    background-color: black;
+} */
+
+.Newlistingitems{
+    width: 100%;
+    height: 10%;
+    /* background-color: rgb(252, 251, 251); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.HomeButtonNumber1{
+    width: 40px;
+    height: 40px;
+    background-color: rgb(198, 18, 18);
+    border: none;
+    border-radius: 5px;
+    position: absolute;
+    left: 5px;
+    top: 130px;
+    z-index: 999;
+    color: white;
+    cursor: pointer;
+}
+
+.HomeButtonNumber2{
+    width: 40px;
+    height: 40px;
+    background-color: rgb(198, 18, 18);
+    border: none;
+    border-radius: 5px;
+    position: absolute;
+    right: 5px;
+    top: 130px;
+    z-index: 999;
+    color: white;
+    cursor: pointer;
+}
+
+.NewListingBtn{
+    width: 130px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(240, 240, 13);
+}
+
+
+.NewListingBtn:hover{
+    background-color: rgb(226, 226, 22);
+    transform: scale(1.1);
+    transition: ease-out 500ms;
+}
+.NewListingAcRapper::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  .NewListingAcRapper::-webkit-scrollbar-track {
+    background: white; 
+  }
+   
+  /* Handle */
+  .NewListingAcRapper::-webkit-scrollbar-thumb {
+    background: white; 
+  }
+  
+  .NewListingAcRapper::-webkit-scrollbar-thumb:hover {
+    background: #ffffff; 
+  }
+
+  
+.HomeItems2{
+    width: 200px;
+    height: 260px;
+    /* background-color: white; */
+    box-shadow: rgba(103, 103, 103, 0.1) 0px 4px 12px;
+    margin-bottom: 40px;
+    border-radius: 5px;
+    border-radius: 10px 10px 0px 0px
+}
+
+.ViewedContainer h3{
+    padding-top: 10px;
+    font-size: 17px;
+}

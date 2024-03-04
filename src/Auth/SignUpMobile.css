@@ -1,0 +1,83 @@
+@media screen and (max-width:767px){
+    .signUpImage{
+        display: block;
+        width: 100%;
+        height: 100%;
+        position: relative;
+        background-image: none;
+        background-color: rgba(0, 0, 0, 0.185);
+     
+    }
+
+    
+    .SignUpContainer{
+        width: 100%;
+        height: 100vh;
+        background-image: url(./src/Image/Frame41.png);
+        object-fit: cover;
+        display: flex;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .signUpDetails{
+        width: 100%;
+        position: absolute;
+        background-color: rgba(0, 0, 0, 0.149);
+    }
+
+    .SignUpGoogle{
+        width: 80%;
+    }
+
+    .SignUpMain2{
+        width: 80%;
+    }
+
+    .SignUpTick{
+        width: 80%;
+    }
+    .SignUpButtonContainer{
+        width: 80%;
+    }
+
+    .SignUpCreateAccount{
+        color: white;
+    }
+
+    .SignUph5{
+        color: white;
+    }
+
+    .SignUpOr{
+        color: white;
+    }
+    
+    
+}
+
+@media screen and (min-width:768px) and (max-width:1024px){
+    
+    .signUpImage{
+        display: none;
+    }
+
+    .signUpDetails{
+        width: 100%;
+    }
+
+    .SignUpGoogle{
+        width: 60%;
+    }
+
+    .SignUpMain2{
+        width: 60%;
+    }
+
+    .SignUpTick{
+        width: 60%;
+    }
+    .SignUpButtonContainer{
+        width: 60%;
+    }
+}

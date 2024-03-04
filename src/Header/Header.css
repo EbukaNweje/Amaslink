@@ -1,0 +1,248 @@
+.HeaderContainer{
+    width: 100%;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* gap: 10px; */
+    padding-right: 10px;
+    background-color: white;
+}
+
+.HeaderContainerContent{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    /* background-color: pink; */
+}
+
+.HeaderContainerContent2{
+    width: 35%;
+    height: 100%;
+    /* background-color: red; */
+}
+
+.HeaderContainerContent2 ul{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: end;
+    list-style-type: none;
+    align-items: center;
+    /* gap : 7%; */
+    font-weight: 600;
+    font-size: 13px;
+    color: rgb(26, 24, 24);
+    justify-content: space-between;
+}
+
+.HeaderContainerContent3{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.HeaderCircleCart{
+    width: 25px;
+    height: 25px;
+    background-color: red;
+    border-radius: 30px;
+    color: white;
+    position: absolute;
+    right: 2%;
+    top: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+
+
+.HeaderImageContainer{
+    width: 70%;
+    height: 70%;
+    background-image: url(./src/Image/Frame43a.png);
+    background-repeat: no-repeat;
+    background-size: 65%;
+    background-position: start;
+}
+
+.HeaderCart{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.HeaderContainerList{
+    transition: ease-in 500ms;
+    width: max-content;
+    height: max-content;
+    display: flex;
+    align-items: center;
+}
+
+.HeaderDisplayInner{
+    /* display: none; */
+     position: absolute;
+        top: 15%;
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: end;
+}
+
+
+.HeaderDisplayInner ul{
+    width: 20%;
+    height: 85%;
+    background-color: white;
+    gap: 10px;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; 
+}
+
+.HeaderRapperContainerList{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    gap: 13px;
+    font-size: 12px;
+    padding-left: 15px;
+}
+.HeaderSearch{
+    width: 65%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding-right: 25px;
+    position: relative;
+}
+
+.HeaderOtherIcons{
+    width: 15%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+
+.HeaderOwnerRapper{
+    width: 100%;
+    height: 0%;
+    display: flex;
+    position: relative;
+    position: absolute;
+    transition: all 0.3s ease;
+    overflow: hidden;
+}
+
+.HeaderOwnerRapper.active{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    position: relative;
+    position: absolute;
+    transition: all 0.3s ease;
+    overflow: hidden;
+}
+
+.HeaderOwnerRapper input {
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+    padding-left: 10px;
+    border: 1px solid rgb(80, 76, 76);
+    outline: none;
+}
+
+.HeaderOwnerRapper .HeaderIcon2{
+    position: absolute;
+    right: 5%;
+    top: 30%;
+    font-size: 20px;
+}
+
+.HeaderListUlLI{
+    width: 13%;
+    height: 70%;
+    position: absolute;
+    top: 90px;
+    border-radius: 5px;
+    opacity: 0;
+    z-index: 999;
+    transition: opacity 0.5s ease;
+}
+
+.HeaderListUlLI ul{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+    cursor: pointer;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    align-items: start;
+    background-color: white;
+    color: rgb(26, 25, 25);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.HeaderListUlLI ul li{
+    padding-left: 10px;
+}
+
+  
+  .HeaderListUlLI.active {
+    opacity: 1;
+  }
+
+  .HeaderListUlLI ul li:hover{
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 5%;
+    display: flex;
+    align-items: center;
+    /* padding-left: 20px; */
+    transition: ease-in 200ms;
+}
+
+.ArrowDown{
+    font-size: 15px;
+    transition: ease-in 600ms;
+}
+
+
+.ArrowDown2{
+    font-size: 17px;
+    transition: all ease-in 0.2s;
+
+}
+.ArrowDown2.active{
+    font-size: 17px;
+
+    transition: all ease-in 0.2s;
+    transform: rotate(180deg);
+}
+  
+
+

@@ -1,0 +1,16 @@
+.carousel-container {
+    width: 300px; /* Set your desired width */
+    overflow: hidden;
+    margin: 0 auto; /* Center the carousel */
+  }
+  
+  .carousel-slide {
+    display: flex;
+    transition: transform 0.5s ease-in-out; /* Smooth transition */
+  }
+  
+  .carousel-slide img {
+    width: 100%;
+    height: auto;
+  }
+  

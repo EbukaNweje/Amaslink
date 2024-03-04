@@ -1,0 +1,119 @@
+@media screen and (max-width:767px){
+    .FooterLogo{
+        width: 90%;
+        height: 25%;
+        background-size: 100%;
+        /* background-color: red; */
+    }
+
+    .FooterContainer{
+        width: 100%;
+        height: 250px;  
+    }
+
+    .FooterLogoSocailMedia{
+        width: 90%;
+        height: 40%;
+        /* background-color: black; */
+        color: white;
+        font-size: 20px;
+        display: flex;
+        gap: 20px;
+    
+    }
+
+    .FooterSocialMediaLink{
+        /* background-color: red; */
+        height: 90%;
+    }
+
+    
+    .FooterContactUs ul{
+        width: 80%;
+        height: 30%;
+        font-size: 8px;
+        flex-wrap: wrap;
+    }
+
+    .FooterSubScribeFooter h4{
+        font-size: 10px;
+    }
+
+    .FooterSubscribeFooter{
+        flex-direction: column;
+        height: 50%;
+        width: 100%;
+        gap: 10px;
+    }
+
+    .FooterSubscribetag{
+        width: 100%;
+        height: 100px;
+        
+    }
+
+    .FooterButtonSend{
+        width: 100%;
+        height: 100px;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:1024px) {
+    .FooterLogo{
+        width: 90%;
+        height: 25%;
+        background-size: 100%;
+        /* background-color: red; */
+    }
+
+    .FooterContainer{
+        width: 100%;
+        height: 250px;  
+    }
+
+    .FooterLogoSocailMedia{
+        width: 90%;
+        height: 40%;
+        /* background-color: black; */
+        color: white;
+        font-size: 20px;
+        display: flex;
+        gap: 20px;
+    
+    }
+
+    .FooterSocialMediaLink{
+        /* background-color: red; */
+        height: 90%;
+    }
+
+    
+    .FooterContactUs ul{
+        width: 80%;
+        height: 30%;
+        font-size: 8px;
+        flex-wrap: wrap;
+    }
+
+    .FooterSubScribeFooter h4{
+        font-size: 10px;
+    }
+
+    .FooterSubscribeFooter{
+        flex-direction: column;
+        height: 50%;
+        width: 100%;
+        gap: 10px;
+    }
+
+    .FooterSubscribetag{
+        width: 90%;
+        height: 100px;
+        
+    }
+
+    .FooterButtonSend{
+        width: 90%;
+        height: 100px;
+    }
+}

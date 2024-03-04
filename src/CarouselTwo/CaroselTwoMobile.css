@@ -1,0 +1,211 @@
+@media screen and (max-width:768px) {
+    
+.HomeCategoryImageSpecialRapper{
+    flex-direction: column;
+}
+
+.HomeCategoryImageSpecial{
+    height: 390px;
+    display: flex;
+    background-color: aliceblue;
+}
+
+.HomeCategoryImageSpecialRapperinside{
+    width: 100%;
+}
+
+.HomeCategoryImageSpecialRapperinside2{
+    width: 100%;
+}
+
+.HomeCatText1{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 30px;
+    gap: 5px;
+}
+
+.HomeCatImage1{
+    width: 200px;
+    height: 100%;
+    background-image: url(./src/Image/TextingImage4-removebg-preview.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 140px;
+    transition: all 0.7s ease;
+}
+
+.HomeCatText2{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 30px;
+    gap: 5px;
+}
+
+.HomeCatImage2{
+    width: 200px;
+    height: 100%;
+    background-image: url(./src/Image/TextingImage1-removebg-preview.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 180px;
+    transition: all 0.7s ease;
+}
+
+.HomeCatText3{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 30px;
+    gap: 5px;
+}
+
+.HomeCatImage3{
+    width: 200px;
+    height: 100%;
+    background-image: url(./src/Image/TextingImage7-removebg-preview.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 210px;
+    transition: all 0.7s ease;
+}
+
+.HomeCatText4{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 30px;
+    gap: 5px;
+}
+
+.HomeCatImage4{
+    width: 200px;
+    background-size: 200px;
+    transition: all 0.7s ease;
+
+}
+
+.HomeCath2{
+    font-size: 15px;
+}
+
+.HomeCatp{
+    font-size: 10px;
+}
+
+
+}
+
+@media screen and (min-width:769px) and (max-width:1024px) {
+    .HomeCategoryImageSpecialRapper{
+        flex-direction: column;
+    }
+    
+    .HomeCategoryImageSpecial{
+        height: 590px;
+        display: flex;
+    }
+    
+    .HomeCategoryImageSpecialRapperinside{
+        width: 100%;
+    }
+    
+    .HomeCategoryImageSpecialRapperinside2{
+        width: 100%;
+    }
+    
+    .HomeCatText1{
+        width: 40%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 30px;
+        gap: 15px;
+    }
+    
+    .HomeCatImage1{
+        width: 300px;
+        height: 100%;
+        background-image: url(./src/Image/TextingImage4-removebg-preview.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 220px;
+        transition: all 0.7s ease;
+    }
+    
+    .HomeCatText2{
+        width: 40%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 30px;
+        gap: 15px;
+    }
+    
+    .HomeCatImage2{
+        width: 400px;
+        height: 100%;
+        background-image: url(./src/Image/TextingImage1-removebg-preview.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 290px;
+        transition: all 0.7s ease;
+    }
+    
+    .HomeCatText3{
+        width: 40%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 30px;
+        gap: 15px;
+    }
+    
+    .HomeCatImage3{
+        width: 400px;
+        height: 100%;
+        background-image: url(./src/Image/TextingImage7-removebg-preview.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 300px;
+        transition: all 0.7s ease;
+    }
+    
+    .HomeCatText4{
+        width: 40%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 30px;
+        gap: 15px;
+    }
+    
+    .HomeCatImage4{
+        width: 400px;
+        background-size: 350px;
+        transition: all 0.7s ease;
+    
+    }
+    
+    .HomeCath2{
+        font-size: 20px;
+    }
+    
+    .HomeCatp{
+        font-size: 10px;
+    }
+}

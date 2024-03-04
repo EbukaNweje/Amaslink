@@ -1,0 +1,188 @@
+.ContactContainer{
+    width: 100%;
+    height: max-content;
+}
+
+.ContactusImage{
+    width: 100%;
+    height: 550px;
+    background-image: url(./src/Image/Frame41.png);
+    background-repeat: no-repeat;
+    background-size: 40%;
+    background-color: black;
+    background-position: center;
+}
+
+.ConatctusimageCover{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.461);
+}
+
+.ContactLogo{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.ContactLogoInside{
+     width: 20%;
+     height: 80%;
+     background-image: url(./src/Image/Frame43.png);
+     background-repeat: no-repeat;
+     background-size: 70%;
+     cursor: pointer;
+}
+
+.ContactLogoText{
+    color: white;
+    width: 100%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ContactLogoText h1{
+    font-size: 40px;
+}
+
+.ContactSecondDiv{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 9%;
+    background-color: whitesmoke;
+    overflow-x: auto;
+    
+}
+
+.ContactSecondinsideDivs{
+    width: 17%;
+    height: 60%;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px
+}
+
+.ContactSecondinsideDivs2{
+    width: 17%;
+    height: 60%;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px
+}
+
+.ContactHolder{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    gap: 9%;
+    justify-content: center;
+    align-items: center;
+    overflow-x: auto;
+}
+
+.ContactIcons{
+    font-size: 50px;
+}
+
+.ContactRapper h5{
+    padding-left: 4px;
+}
+
+.ContactThirdContainer{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+}
+
+.ContactThirdContainerinside{
+    width: 88%;
+    height: 100%;
+    font-size: 13px;
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.ContactThirdContainerRapper{
+    width: 50%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: 10%;
+    padding-top: 10px;
+
+}
+
+.ContactThirdrapperinput{
+    width: 70%;
+    height: 13%;
+    border-radius: 7px;
+    outline: none;
+    border: 1px solid rgb(165, 160, 160);
+    padding-left: 10px;
+}
+
+.ConatctThirdRapperMessage{
+    width: 70%;
+    height: 40%;
+    border-radius: 7px;
+    outline: none;
+    border: 1px solid rgb(160, 158, 158);
+    padding-left: 10px;
+}
+
+.ContactUsImageip{
+    width: 50%;
+    height: 90%;
+    background-image: url(./src/Image/ContactUs.avif);
+    background-repeat: no-repeat;
+    background-size: 70%;
+    margin-top: 10px;
+}
+
+.ContactFouthContainer{
+    width: 100%;
+    height: 300px;
+    padding-top: 5%;
+    padding-left: 6%;
+}
+
+.ContactFouthContainer button{
+    width: 32%;
+    height: 25%;
+    border: none;
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.ContactThirdSubmit{
+    width: 30%;
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    gap: 30px;
+}

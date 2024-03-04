@@ -1,0 +1,18 @@
+@media screen and (max-width: 767px) {
+    .ViewedContainer h3{
+        padding-top: 10px;
+        font-size: 13px;
+        padding-left: 20px;
+        /* position: fixed; */
+    }
+
+    
+.ViewedContainerInner{
+    width: max-content;
+    height: 100%;
+    display: flex;
+    gap: 10px;
+    padding-left: 20px;
+}
+
+}
