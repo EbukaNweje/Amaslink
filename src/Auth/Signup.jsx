@@ -108,7 +108,7 @@ const Signup = () => {
           <button className="SignUpButton">Create Account</button>
           <h5 className="SignUph5">
             Already have an account?{" "}
-            <span style={{ color: "#C90A12", cursor: "pointer" }}>Login</span>
+            <span style={{ color: "#C90A12", cursor: "pointer" }} onClick={() => nav('/login')}>Login</span>
           </h5>
         </div>
       </div>

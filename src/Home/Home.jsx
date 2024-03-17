@@ -32,12 +32,29 @@ const Home = () => {
         setMenu(!menu)
     }
 
+    const categoryListRef = useRef(null);
     const footerRef = useRef(null);
+    const listingRef = useRef(null);
 
     const handleFooterClick = () => {
-      footerRef.current.scrollIntoView({ behavior: "smooth" });
+      if (footerRef.current) {
+        footerRef.current.scrollIntoView({ behavior: "smooth" });
+    }
     };
 
+    
+    const handleFooterClickTwo = () => {
+      if (categoryListRef.current) {
+        categoryListRef.current.scrollIntoView({ behavior: "smooth" });
+    }
+    };
+
+       
+    const handleFooterClickThree = () => {
+      if (listingRef.current) {
+        listingRef.current.scrollIntoView({ behavior: "smooth" });
+    }
+    };
   return (
     <div className="HomeContainer">
       <div className="HomeHeader">
@@ -50,8 +67,8 @@ const Home = () => {
               <li className="HomeliTag"onClick={()=>nav('/faq')}>FAQ</li>
 
               <li className="HomeliTag" onClick={()=>nav('/contact') }>Contact</li>
-              <li className="HomeliTag" >Category</li>
-              <li className="HomeliTag" >Listing</li>
+              <li className="HomeliTag" onClick={handleFooterClickTwo}>Category</li>
+              <li className="HomeliTag" onClick={handleFooterClickThree} >Listing</li>
             </ul>
           </div>
 
@@ -99,7 +116,7 @@ const Home = () => {
           </div>
         </div>
 
-        <div className="HomeCategoryList">
+        <div className="HomeCategoryList" ref={categoryListRef}>
         <div className="HomecateDivrapper">
 
         <div className="HomeCategoryListRapper">
@@ -190,7 +207,7 @@ const Home = () => {
         </div>
       </div>
 
-          <NewListing/>
+          <NewListing ref={listingRef}/>
 
       <div className="HomesendEmailContainer">
         <div className="HomesendEmailText">

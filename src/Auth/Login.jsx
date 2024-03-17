@@ -43,8 +43,8 @@ const Login = () => {
         </main>
 
         <div className='LoginButtonContainer'>
-            <button className='LoginButton'>Create Account</button>
-            <h5 style={{color: "white"}}>Already have an account? <span style={{color:"#C90A12", cursor: "pointer"}}>Login</span></h5>
+            <button className='LoginButton'>Login</button>
+            <h5 className='AlreadyHave'>Dont have an Account? <span style={{color:"#C90A12", cursor: "pointer"}} onClick={() => nav('/signup')}>SignUp</span></h5>
             <div className='LoginOptiontag'>
 
               <div className='line'></div>

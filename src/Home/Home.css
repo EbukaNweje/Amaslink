@@ -33,18 +33,14 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    color: red;
+    color: rgb(29, 29, 29);
     list-style: none;
-    font-size: 17px;
+    font-size: 13px;
     font-weight: 600;
 }
 
 
 .HomeliTag:hover{
-    text-decoration: underline;
-    text-decoration-thickness: 3px;
-    text-decoration-color: red;
-    transition: ease-in 500ms;
     gap: 10px;
     cursor: pointer;
 }
@@ -53,12 +49,12 @@
     color: yellow;
     display: none;
 }
-
+/* 
 .HomeliTag{
     text-decoration: underline;
     text-decoration-thickness: 3px;
     text-decoration-color: white;
-}
+} */
 
 .Homemenu{
     display: none;
